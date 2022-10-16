@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard</title>
+
+        <link rel="icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/app.css" />
+    </head>
+    <body>
+        <div class="page">
+            <!-- <section class="modal">
+                <div class="modal__box">
+                    <a href="#" class="modal__item">Dashboard</a>
+                    <a href="#" class="modal__item">Marketplace</a>
+                    <a href="#" class="modal__item">Collections</a>
+                    <a href="#" class="modal__item">Wallet</a>
+
+                    <a href="#" class="btn modal__btn">Logout</a>
+                </div>
+            </section> -->
+
+            <section class="sidebar">
+                <!-- <a href="#" class="logo">
+                    <img src="" alt="" class="logo__img">
+                </a> -->
+
+                <nav class="nav">
+                    <a href="dashboard.html" class="nav__item nav__item_active">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#dashboard" />
+                        </svg>
+                        <div class="nav__item-name">Dashboard</div>
+                    </a>
+                    <a href="marketplace.html" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#marketplace" />
+                        </svg>
+                        <div class="nav__item-name">Marketplace</div>
+                    </a>
+                    <a href="collections.html" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#collections" />
+                        </svg>
+                        <div class="nav__item-name">Collections</div>
+                    </a>
+                    <a href="wallet.html" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#wallet" />
+                        </svg>
+                        <div class="nav__item-name">Wallet</div>
+                    </a>
+                    <!-- <a href="#" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#statistics" />
+                        </svg>
+                        <div class="nav__item-name">Statistics</div>
+                    </a> -->
+                </nav>
+
+                <div class="sidebar-control">
+                    <!-- <a href="#" class="sidebar-control__item">
+                        <svg
+                            class="icon icon_medium sidebar-control__item-icon"
+                        >
+                            <use href="icons/sprites.svg#settings" />
+                        </svg>
+                        <div class="sidebar-control__item-name">Settings</div>
+                    </a> -->
+                    <a href="#" class="sidebar-control__item">
+                        <svg
+                            class="icon icon_medium sidebar-control__item-icon"
+                        >
+                            <use href="icons/sprites.svg#logout" />
+                        </svg>
+                        <div class="sidebar-control__item-name">Logout</div>
+                    </a>
+                </div>
+            </section>
+
+            <div class="wrap">
+                <header class="container header">
+                    <div class="header__box">
+                        <div class="header-menu">
+                            <svg class="icon icon_medium header-menu__icon">
+                                <use href="icons/sprites.svg#menu-burger" />
+                            </svg>
+                        </div>
+
+                        <div class="custom-input">
+                            <svg class="icon icon_small custom-input__icon">
+                                <use href="icons/sprites.svg#search" />
+                            </svg>
+                            <input
+                                type="text"
+                                class="custom-input__input"
+                                placeholder="Search items, collections..."
+                            />
+                        </div>
+                    </div>
+
+                    <div class="header-control">
+                        <div class="header-menu_control">
+                            <svg
+                                class="icon icon_medium header-menu_control__icon"
+                            >
+                                <use href="icons/sprites.svg#menu-burger" />
+                            </svg>
+                        </div>
+
+                        <div class="header-control__box_1">
+                            <div class="header-control__box_11">
+                                <svg
+                                    class="icon icon_medium header-control__icon"
+                                >
+                                    <use href="icons/sprites.svg#email" />
+                                </svg>
+                                <div class="header-control__box">
+                                    <svg
+                                        class="icon icon_medium header-control__icon"
+                                    >
+                                        <use
+                                            href="icons/sprites.svg#notifications"
+                                        />
+                                    </svg>
+                                    <div
+                                        class="header-control__icon-notification"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <div class="profile">
+                                <img
+                                    src="images/avatar_1.jpg"
+                                    alt=""
+                                    class="avatar avatar_medium profile__avatar"
+                                />
+                                <div class="profile__name">William Harry</div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <main class="main">
+                    <section class="container dashboard-achievements">
+                        <div class="dashboard-achievements__item">
+                            <div
+                                class="dashboard-achievements__icon-box dashboard-achievements__icon-box_assets"
+                            >
+                                <svg
+                                    class="icon icon_big dashboard-achievements__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#assets" />
+                                </svg>
+                            </div>
+                            <div class="dashboard-achievements__box">
+                                <div class="dashboard-achievements__item-name">
+                                    Total Assets
+                                </div>
+                                <div class="dashboard-achievements__item-sum">
+                                    $3,500
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-achievements__item">
+                            <div
+                                class="dashboard-achievements__icon-box dashboard-achievements__icon-box_items"
+                            >
+                                <svg
+                                    class="icon icon_big dashboard-achievements__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#items" />
+                                </svg>
+                            </div>
+                            <div class="dashboard-achievements__box">
+                                <div class="dashboard-achievements__item-name">
+                                    Total Items
+                                </div>
+                                <div class="dashboard-achievements__item-sum">
+                                    240
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-achievements__item">
+                            <div
+                                class="dashboard-achievements__icon-box dashboard-achievements__icon-box_sales"
+                            >
+                                <svg
+                                    class="icon icon_big dashboard-achievements__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#sales" />
+                                </svg>
+                            </div>
+                            <div class="dashboard-achievements__box">
+                                <div class="dashboard-achievements__item-name">
+                                    Total Sales
+                                </div>
+                                <div class="dashboard-achievements__item-sum">
+                                    $2,400
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-achievements__item">
+                            <div
+                                class="dashboard-achievements__icon-box dashboard-achievements__icon-box_activities"
+                            >
+                                <svg
+                                    class="icon icon_big dashboard-achievements__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#activities" />
+                                </svg>
+                            </div>
+                            <div class="dashboard-achievements__box">
+                                <div class="dashboard-achievements__item-name">
+                                    Activities
+                                </div>
+                                <div class="dashboard-achievements__item-sum">
+                                    240
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="dashboard-my-collections">
+                        <h1 class="container title dashboard-my-collections__title">
+                            My Collections
+                        </h1>
+
+                        <div class="container dashboard-my-collections__box">
+                            <div class="dashboard-my-collections__item">
+                                <svg
+                                    class="icon icon_medium dashboard-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#favourite" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="dashboard-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_1.jpg"
+                                        alt=""
+                                        class="dashboard-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="dashboard-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="dashboard-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="dashboard-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <div
+                                            class="dashboard-my-collections__item-box_111"
+                                        >
+                                            Current Price
+                                            <div
+                                                class="dashboard-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="dashboard-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-my-collections__item">
+                                <svg
+                                    class="icon icon_medium dashboard-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#favourite" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="dashboard-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_2.jpg"
+                                        alt=""
+                                        class="dashboard-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="dashboard-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="dashboard-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="dashboard-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <div
+                                            class="dashboard-my-collections__item-box_111"
+                                        >
+                                            Current Price
+                                            <div
+                                                class="dashboard-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="dashboard-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-my-collections__item">
+                                <svg
+                                    class="icon icon_medium dashboard-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#favourite" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="dashboard-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_3.jpg"
+                                        alt=""
+                                        class="dashboard-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="dashboard-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="dashboard-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="dashboard-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <div
+                                            class="dashboard-my-collections__item-box_111"
+                                        >
+                                            Current Price
+                                            <div
+                                                class="dashboard-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="dashboard-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-my-collections__item">
+                                <svg
+                                    class="icon icon_medium dashboard-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#favourite" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="dashboard-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_4.jpg"
+                                        alt=""
+                                        class="dashboard-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="dashboard-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="dashboard-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="dashboard-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <div
+                                            class="dashboard-my-collections__item-box_111"
+                                        >
+                                            Current Price
+                                            <div
+                                                class="dashboard-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="dashboard-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-my-collections__item">
+                                <svg
+                                    class="icon icon_medium dashboard-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#favourite" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="dashboard-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_5.jpg"
+                                        alt=""
+                                        class="dashboard-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="dashboard-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="dashboard-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="dashboard-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <div
+                                            class="dashboard-my-collections__item-box_111"
+                                        >
+                                            Current Price
+                                            <div
+                                                class="dashboard-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="dashboard-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-my-collections__item">
+                                <svg
+                                    class="icon icon_medium dashboard-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#favourite" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="dashboard-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_6.jpg"
+                                        alt=""
+                                        class="dashboard-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="dashboard-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="dashboard-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="dashboard-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <div
+                                            class="dashboard-my-collections__item-box_111"
+                                        >
+                                            Current Price
+                                            <div
+                                                class="dashboard-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="dashboard-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-my-collections__item">
+                                <svg
+                                    class="icon icon_medium dashboard-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#favourite" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="dashboard-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_7.jpg"
+                                        alt=""
+                                        class="dashboard-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="dashboard-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="dashboard-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="dashboard-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <div
+                                            class="dashboard-my-collections__item-box_111"
+                                        >
+                                            Current Price
+                                            <div
+                                                class="dashboard-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="dashboard-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_medium dashboard-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="container dashboard-main__box">
+                        <section class="dashboard-recent-trading">
+                            <h1 class="title dashboard-recent-trading__title">
+                                Recent Trading
+                            </h1>
+
+                            <table
+                                class="table dashboard-recent-trading__table"
+                            >
+                                <thead class="thead">
+                                    <tr class="tr">
+                                        <th class="th">
+                                            <div class="th__box">Event</div>
+                                        </th>
+                                        <th class="th">
+                                            <div class="th__box">Item</div>
+                                        </th>
+                                        <th class="th">
+                                            <div class="th__box">From</div>
+                                        </th>
+                                        <th class="th">
+                                            <div class="th__box">To</div>
+                                        </th>
+                                        <th class="th">
+                                            <div class="th__box">Price</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody">
+                                    <tr class="tr">
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon td__icon_event"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#sale"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">Sale</div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <img
+                                                    src="images/avatar_1.jpg"
+                                                    alt=""
+                                                    class="avatar avatar_small td__img"
+                                                />
+                                                <div class="td__text">
+                                                    Lady Bees
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_from">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    Xzumi
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_to">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    2D342
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#ethereum"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    2.125
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr">
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon td__icon_event"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#transfer"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    Transfer
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <img
+                                                    src="images/avatar_2.jpg"
+                                                    alt=""
+                                                    class="avatar avatar_small td__img"
+                                                />
+                                                <div class="td__text">
+                                                    Lady Bees
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_from">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    BabyHunt
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_to">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    Splace21
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#ethereum"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    0.324
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr">
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon td__icon_event"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#transfer"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    Transfer
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <img
+                                                    src="images/avatar_3.jpg"
+                                                    alt=""
+                                                    class="avatar avatar_small td__img"
+                                                />
+                                                <div class="td__text">
+                                                    Lady Bees
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_from">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    Joe409
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_to">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    394Hvn
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#ethereum"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    5.231
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr">
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon td__icon_event"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#sale"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">Sale</div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <img
+                                                    src="images/avatar_1.jpg"
+                                                    alt=""
+                                                    class="avatar avatar_small td__img"
+                                                />
+                                                <div class="td__text">
+                                                    Lady Bees
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_from">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    Al3x7
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_to">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    8Aru5
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#ethereum"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    0.321
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr">
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon td__icon_event"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#transfer"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    Transfer
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <img
+                                                    src="images/avatar_2.jpg"
+                                                    alt=""
+                                                    class="avatar avatar_small td__img"
+                                                />
+                                                <div class="td__text">
+                                                    Art Of Freedom
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_from">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    N1c34L
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td td_to">
+                                            <div class="td__box">
+                                                <div class="td__text">
+                                                    Manof2
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="td">
+                                            <div class="td__box">
+                                                <svg
+                                                    class="icon icon_medium td__icon"
+                                                >
+                                                    <use
+                                                        href="icons/sprites.svg#ethereum"
+                                                    />
+                                                </svg>
+                                                <div class="td__text">
+                                                    7.128
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+
+                        <!-- <section class="dashboard-my-balance">
+                            <canvas id="myChart" width="400" height="400"></canvas>
+                        </section> -->
+
+                        <section class="dashboard-wallets">
+                            <div
+                                class="dashboard-wallets__item dashboard-wallets__item_btc"
+                            >
+                                <div class="dashboard-wallets__item-name">
+                                    BTC Wallet
+                                </div>
+                                <div class="dashboard-wallets__item-box">
+                                    <div class="dashboard-wallets__item-sum">
+                                        4.02857
+                                    </div>
+                                    BTC
+                                </div>
+                            </div>
+                            <div
+                                class="dashboard-wallets__item dashboard-wallets__item_ethereum"
+                            >
+                                <div class="dashboard-wallets__item-name">
+                                    Ethereum Wallet
+                                </div>
+                                <div class="dashboard-wallets__item-box">
+                                    <div class="dashboard-wallets__item-sum">
+                                        2.0293
+                                    </div>
+                                    ETH
+                                </div>
+                            </div>
+                            <div
+                                class="dashboard-wallets__item dashboard-wallets__item_tether"
+                            >
+                                <div class="dashboard-wallets__item-name">
+                                    Tether Wallet
+                                </div>
+                                <div class="dashboard-wallets__item-box">
+                                    <div class="dashboard-wallets__item-sum">
+                                        2.0293
+                                    </div>
+                                    USDT
+                                </div>
+                            </div>
+                            <div
+                                class="dashboard-wallets__item dashboard-wallets__item_usd-coin"
+                            >
+                                <div class="dashboard-wallets__item-name">
+                                    USD Coin Wallet
+                                </div>
+                                <div class="dashboard-wallets__item-box">
+                                    <div class="dashboard-wallets__item-sum">
+                                        2.0293
+                                    </div>
+                                    USDC
+                                </div>
+                            </div>
+                            <div
+                                class="dashboard-wallets__item dashboard-wallets__item_bnb"
+                            >
+                                <div class="dashboard-wallets__item-name">
+                                    BNB Wallet
+                                </div>
+                                <div class="dashboard-wallets__item-box">
+                                    <div class="dashboard-wallets__item-sum">
+                                        2.0293
+                                    </div>
+                                    BNB
+                                </div>
+                            </div>
+                            <div
+                                class="dashboard-wallets__item dashboard-wallets__item_xrp"
+                            >
+                                <div class="dashboard-wallets__item-name">
+                                    XRP Wallet
+                                </div>
+                                <div class="dashboard-wallets__item-box">
+                                    <div class="dashboard-wallets__item-sum">
+                                        2.0293
+                                    </div>
+                                    XRP
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+            integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

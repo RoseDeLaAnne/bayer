@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Collections</title>
+
+        <link rel="icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/app.css" />
+    </head>
+    <body>
+        <div class="page">
+            <section class="sidebar">
+                <!-- <a href="#" class="logo">
+                    <img src="" alt="" class="logo__img">
+                </a> -->
+
+                <nav class="nav">
+                    <a href="dashboard.html" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#dashboard" />
+                        </svg>
+                        <div class="nav__item-name">Dashboard</div>
+                    </a>
+                    <a href="marketplace.html" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#marketplace" />
+                        </svg>
+                        <div class="nav__item-name">Marketplace</div>
+                    </a>
+                    <a
+                        href="collections.html"
+                        class="nav__item nav__item_active"
+                    >
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#collections" />
+                        </svg>
+                        <div class="nav__item-name">Collections</div>
+                    </a>
+                    <a href="wallet.html" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#wallet" />
+                        </svg>
+                        <div class="nav__item-name">Wallet</div>
+                    </a>
+                    <!-- <a href="#" class="nav__item">
+                        <svg class="icon icon_medium nav__item-icon">
+                            <use href="icons/sprites.svg#statistics" />
+                        </svg>
+                        <div class="nav__item-name">Statistics</div>
+                    </a> -->
+                </nav>
+
+                <div class="sidebar-control">
+                    <!-- <a href="#" class="sidebar-control__item">
+                        <svg
+                            class="icon icon_medium sidebar-control__item-icon"
+                        >
+                            <use href="icons/sprites.svg#settings" />
+                        </svg>
+                        <div class="sidebar-control__item-name">Settings</div>
+                    </a> -->
+                    <a href="#" class="sidebar-control__item">
+                        <svg
+                            class="icon icon_medium sidebar-control__item-icon"
+                        >
+                            <use href="icons/sprites.svg#logout" />
+                        </svg>
+                        <div class="sidebar-control__item-name">Logout</div>
+                    </a>
+                </div>
+            </section>
+
+            <div class="wrap">
+                <header class="header">
+                    <div class="header__box">
+                        <div class="header-menu">
+                            <svg class="icon icon_medium header-menu__icon">
+                                <use href="icons/sprites.svg#menu-burger" />
+                            </svg>
+                        </div>
+
+                        <div class="custom-input">
+                            <svg class="icon icon_small custom-input__icon">
+                                <use href="icons/sprites.svg#search" />
+                            </svg>
+                            <input
+                                type="text"
+                                class="custom-input__input"
+                                placeholder="Search items, collections..."
+                            />
+                        </div>
+                    </div>
+
+                    <div class="header-control">
+                        <div class="header-menu_control">
+                            <svg
+                                class="icon icon_medium header-menu_control__icon"
+                            >
+                                <use href="icons/sprites.svg#menu-burger" />
+                            </svg>
+                        </div>
+
+                        <div class="header-control__box_1">
+                            <div class="header-control__box_11">
+                                <svg
+                                    class="icon icon_medium header-control__icon"
+                                >
+                                    <use href="icons/sprites.svg#email" />
+                                </svg>
+                                <div class="header-control__box">
+                                    <svg
+                                        class="icon icon_medium header-control__icon"
+                                    >
+                                        <use
+                                            href="icons/sprites.svg#notifications"
+                                        />
+                                    </svg>
+                                    <div
+                                        class="header-control__icon-notification"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <div class="profile">
+                                <img
+                                    src="images/avatar_1.jpg"
+                                    alt=""
+                                    class="avatar avatar_medium profile__avatar"
+                                />
+                                <div class="profile__name">William Harry</div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <main class="main">
+                    <section class="collections-my-collections">
+                        <h1 class="title collections-my-collections__title">
+                            My Collections
+                        </h1>
+
+                        <div class="collections-my-collections__box">
+                            <div class="collections-my-collections__item">
+                                <svg
+                                    class="icon icon_big collections-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#buy" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="collections-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_1.jpg"
+                                        alt=""
+                                        class="collections-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="collections-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="collections-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="collections-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <!-- <div class="collections-my-collections__item-box_111">
+                                            Current Price
+                                            <div
+                                                class="collections-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div> -->
+                                    </div>
+
+                                    <div
+                                        class="collections-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collections-my-collections__item">
+                                <svg
+                                    class="icon icon_big collections-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#buy" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="collections-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_2.jpg"
+                                        alt=""
+                                        class="collections-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="collections-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="collections-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="collections-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <!-- <div class="collections-my-collections__item-box_111">
+                                            Current Price
+                                            <div
+                                                class="collections-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div> -->
+                                    </div>
+
+                                    <div
+                                        class="collections-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collections-my-collections__item">
+                                <svg
+                                    class="icon icon_big collections-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#buy" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="collections-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_3.jpg"
+                                        alt=""
+                                        class="collections-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="collections-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="collections-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="collections-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <!-- <div class="collections-my-collections__item-box_111">
+                                            Current Price
+                                            <div
+                                                class="collections-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div> -->
+                                    </div>
+
+                                    <div
+                                        class="collections-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collections-my-collections__item">
+                                <svg
+                                    class="icon icon_big collections-my-collections__item-icon"
+                                >
+                                    <use href="icons/sprites.svg#buy" />
+                                </svg>
+                                <a
+                                    href="nft.html"
+                                    class="collections-my-collections__item-box"
+                                >
+                                    <img
+                                        src="images/nft_4.jpg"
+                                        alt=""
+                                        class="collections-my-collections__item-img"
+                                    />
+                                </a>
+
+                                <div
+                                    class="collections-my-collections__item-box_1"
+                                >
+                                    <div
+                                        class="collections-my-collections__item-box_11"
+                                    >
+                                        <div
+                                            class="collections-my-collections__item-name"
+                                        >
+                                            Karawai Art
+                                        </div>
+                                        <!-- <div class="collections-my-collections__item-box_111">
+                                            Current Price
+                                            <div
+                                                class="collections-my-collections__item-price"
+                                            >
+                                                2.51 ETH
+                                            </div>
+                                        </div> -->
+                                    </div>
+
+                                    <div
+                                        class="collections-my-collections__item-box_12"
+                                    >
+                                        <img
+                                            src="images/avatar_1.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_2.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                        <img
+                                            src="images/avatar_3.jpg"
+                                            alt=""
+                                            class="avatar avatar_big collections-my-collections__item-user"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
