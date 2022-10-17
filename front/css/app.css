@@ -1483,7 +1483,7 @@ td.td_to .td__text {
 }
 
 @media (max-width: 1600px) {
-    .main__box {
+    .dashboard-main__box {
         grid-template-columns: 1fr;
 
         column-gap: 0px;
@@ -1500,7 +1500,7 @@ td.td_to .td__text {
     }
 
     .wrap {
-        padding: 32px 32px 32px 0;
+        padding: 32px 0 32px 0;
     }
 
     .header-menu {
@@ -1633,12 +1633,18 @@ td.td_to .td__text {
         width: 100%;
     }
 
-    .page {
+    /* .page {
         padding: 24px 0;
+    } */
+
+    .wrap {
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     .container {
-        padding: 0 24px;
+        padding-right: 24px;
+        padding-left: 24px;
     }
 }
 
